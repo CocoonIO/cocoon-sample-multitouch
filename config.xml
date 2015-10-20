@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="io.cocoon.sample.multitouch" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cocoon="http://cocoon.io/ns/1.0">
+    <name>Multitouch sample</name>
+    <description>
+    Play with multiple touch points
+    </description>
+
+    <!-- Shown in the wizard -->
+    <icon src="icon.png" />
+
+    <content src="index.html" />
+    <access origin="*"/>
+    
+    <preference name="Orientation" value="landscape"/>
+    <preference name="Fullscreen" value="true"/>
+
+    <cocoon:plugin name="com.ludei.canvasplus.ios"/>
+    <cocoon:plugin name="com.ludei.canvasplus.android"/>
+</widget>
